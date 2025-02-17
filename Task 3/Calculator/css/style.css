@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+
+html,
+body {
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc71y1DqUKBTVlQ32UxmCw4Z2Fot3kEd_C8Q&usqp=CAU");
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-color: #3a4452; */
+  /* margin: 30px 0; */
+}
+
+.container {
+  width: 350px;
+  height: 550px;
+  padding-top: 0px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  border: none;
+  border-radius: 20px;
+  background-color: #919aa7;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #3a4452;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.2);
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgba(0, 255, 255, 0.144);
+  color: #fff;
+}
+.aqva {
+  color: rgba(0, 255, 255, 0.797);
+}
+
+.equal {
+  width: 90px;
+}
+
+.row {
+  margin: 8px 0;
+}
+.row input {
+  width: 291px;
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  text-align: right;
+  box-shadow: none;
+  font-size: 20px;
+  margin: 10;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3a4452;
+  color: #fff;
+  font-size: 30px;
+}
+
+hr {
+  width: 80%;
+}
